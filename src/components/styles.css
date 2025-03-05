@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 550px;
+  }
+  
+  .progress-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+  }
+  
+  .progress-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .dropdowns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dropdown {
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+
+  .max-bars {
+    width: max-content;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .search-bar {
+    border-radius: 10px;
+  }
